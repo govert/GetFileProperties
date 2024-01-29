@@ -2,7 +2,7 @@ Imports ClosedXML.Excel
 
 Module Program
     Sub Main(args As String())
-        Dim wb As New XLWorkbook("perfDemo.xlsx")
+        Dim wb As New XLWorkbook("perfDemo.xlsm")
         Dim ws As IXLWorksheet = wb.Worksheet("Sheet1")
         Dim msg As String
 
